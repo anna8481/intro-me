@@ -19,7 +19,7 @@ main {
 }
 
 
-.profile {
+#profile {
     width: 320px;
     height: 320px;
     overflow: hidden;
@@ -27,12 +27,12 @@ main {
     overflow-y: hidden;
 }
 
-.profile img:hover {
+#profile img:hover {
     transition: all 0.4s ease-in;
 }
 
 
-.profile img:hover {
+#profile img:hover {
 
     overflow: hidden;
     overflow-x: hidden;
