@@ -5,113 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="index.css" rel="stylesheet" /> -->
-    <style>
-        nav {
-            display: block;
-            background-color: grey;
-            color: white;
-            padding: 3px 0px;
-        }
+    <link href="style.css" rel="stylesheet">
 
-        ;
-
-        #cv {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-
-        ;
-
-        ul {
-            margin-left: 0;
-            padding: 5px;
-        }
-
-        ;
-
-        li {
-            margin-left: 25px;
-        }
-
-        ;
-
-        nav li {
-            display: inline;
-            transition: letter-spacing 0.5s ease, background-color 0.5s ease
-        }
-
-        ;
-
-        nav li:hover {
-            letter-spacing: 4px;
-            background-color: darkgrey;
-        }
-
-        ;
-
-        nav a {
-            text-decoration: none;
-            color: white;
-            padding: 0 10px;
-        }
-
-        ;
-
-        .one {
-            display: grid;
-        }
-
-        ;
-
-        img {
-            width: 250px;
-            height: 250px;
-            padding-left: 20px;
-            transition: transform .5s;
-        }
-
-        ;
-
-        img:hover {
-            transform: scale(1.5);
-        }
-
-        ;
-
-        h1 {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-
-        ;
-
-        section {
-            padding-left: 20px;
-        }
-
-        ;
-
-        h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        ;
-
-        ol {
-            margin-top: 5px;
-        }
-
-        ;
-
-        footer {
-            background-color: lightgrey;
-            padding: 30px 20px 20px 20px;
-        }
-
-        ;
-    </style>
     <title>Anna's Resume</title>
 </head>
 
@@ -129,16 +24,16 @@
     </header>
 
     <main>
-        <article id="profile">
-            <h1>Anna</h1>
-            <div class="img">
-                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdW1lJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                    alt="">
-            </div>
-        </article>
+
+        <h1 id="name"> Anna</h1>
+        <section class="profile">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdW1lJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                alt="">
+        </section>
+
         <div id="cv">
             <section class="item">
-                <h2>인적사항</h2>
+                <h2 class="subtitle">인적사항</h2>
                 <p>
                 <div><strong>생년월일</strong>: 1992.09.01</div>
                 <div><strong>주소</strong>: 성동구 아차산로 107 1호</div>
@@ -146,23 +41,23 @@
                 </p>
             </section>
             <section class="item">
-                <h2>학력사항</h2>
+                <h2 class="subtitle">학력사항</h2>
                 <ul>
-                    <li>2011.03 - 2015.06 : 서강대학교 수학과 경영학과 전공</li>
-                    <li>2012.09 - 2011.12 : EM Stragsbour, France 경영학 복수전공</li>
+                    <li>2011.03 - 2015.06 : 서강대학교 수학 및 경영학 전공</li>
+                    <li>2012.09 - 2011.12 : EM Stragsbourg, France 경영학, 교환학생</li>
                 </ul>
             </section>
             <section class="item">
-                <h2>경력사항</h2>
+                <h2 class="subtitle">경력사항</h2>
                 <ul>
-                    <li>2015.08 - 2017.12 : KPMG 금용보험계리, Associate</li>
+                    <li>2015.08 - 2017.12 : KPMG 금융보험계리, Associate</li>
                     <li>2018.01 - 2020.01 : Chubb Life Korea Acutuarial Valuation Team, Associate</li>
                     <li>2020.02 - Recent : Chubb Life Korea Risk Management Team, Associate</li>
-                    <li>2022.11 - Recent: Alice AI software engineer course</li>
+                    <li>2022.11 - Recent: Alice AI SW course</li>
                 </ul>
             </section>
             <section class="item">
-                <h2>보유스킬</h2>
+                <h2 class="subtitle">보유스킬</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>

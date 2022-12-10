@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+
+nav {
+    display: block;
+    background-color: grey;
+    color: white;
+    padding: 3px 0px;
+}
+
+main {
+    padding: 32px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+#cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.profile {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.profile img:hover {
+    transition: all 0.4s ease-in;
+}
+
+
+.profile img:hover {
+
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transform: scale(1.2);
+}
+
+
+
+ul {
+    margin: 8px 0 8px 0;
+    padding: 0;
+
+}
+
+
+li {
+    margin-left: 25px;
+}
+
+
+
+nav li {
+    display: inline;
+    transition: letter-spacing 0.5s ease, background-color 0.5s ease;
+    margin-left: 5px;
+}
+
+
+
+nav li:hover {
+    letter-spacing: 4px;
+    background-color: darkgrey;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+
+
+.one {
+    display: grid;
+}
+
+
+
+
+
+#name {
+    margin: 10px 0;
+    font-size: 45px;
+}
+
+;
+
+section {
+    padding-left: 20px;
+}
+
+
+
+.subtitle {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+ol {
+    margin-top: 5px;
+}
+
+
+
+footer {
+    background-color: lightgrey;
+    padding: 40px;
+}
